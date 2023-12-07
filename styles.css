@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .game {
+    margin: 50px auto;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(80px, 1fr)); /* Flexible grid columns */
+    grid-gap: 5px;
+    margin: 0 auto; /* Center align the grid */
+    margin-bottom: 10px;
+    max-width: 300px; /* Limiting the maximum width for the grid */
+  }
+  
+  .cell {
+    width: 100%; /* Full width for cells */
+    height: 80px; /* Adjust height */
+    background-color: rgb(251, 205, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
